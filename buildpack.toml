@@ -78,7 +78,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/spring-boot"
     optional = true
-    version = "5.25.1"
+    version = "{{.version}}2"
 
   [[order.group]]
     id = "paketo-buildpacks/datadog"
@@ -87,7 +87,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/native-image"
-    version = "5.11.0"
+    version = "{{.version}}"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"

@@ -27,13 +27,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.7.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.25.1"
+  uri = "docker://anthonydahanne/spring-boot:fix-273"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/datadog:3.11.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/native-image:5.11.0"
+  uri = "docker://anthonydahanne/native-image:fix-273"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.2"
@@ -43,3 +43,6 @@
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.5.0"
+
+[buildpack]
+uri = "."
